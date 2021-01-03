@@ -1,0 +1,123 @@
+/* Untuk Tablet */
+
+@media all and (max-width: 1000px) {
+    .navbar-list ul li a {
+        font-size: 12px;
+    }
+}
+
+
+/* Untuk Smartphone */
+
+@media all and (max-width: 670px) {
+    .navbar-list {
+        display: none;
+    }
+    .title-top {
+        text-align: center;
+        padding: 24px 24px;
+    }
+    .top-wrapper .hero .image-top {
+        display: none;
+    }
+    .hello-wrapper p {
+        padding: 0px 0px;
+        line-height: 24px;
+        font-size: 16px;
+        margin-top: 40px;
+        margin-bottom: 32px;
+    }
+    .title-top h1 {
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 40px;
+        color: white;
+        margin-bottom: 52px;
+    }
+    .title-top p {
+        font-size: 16px;
+        margin-bottom: 40px;
+        line-height: 24px;
+    }
+    .hello-wrapper {
+        padding: 24px 24px;
+    }
+    .services {
+        display: block;
+    }
+    .offers-wrapper {
+        text-align: center;
+    }
+    .offers-wrapper .offers {
+        display: block;
+    }
+    .offers-wrapper .offers .offer img {
+        width: 50%;
+    }
+    .offers-wrapper .offers .offer h3 {
+        position: relative;
+        background-color: white;
+        padding: 8px 70px 8px 8px;
+        vertical-align: middle;
+        bottom: 3px;
+    }
+    .offers-wrapper .rectangle {
+        display: none;
+    }
+    .cinematic-wrapper {
+        padding: 20px 20px;
+    }
+    .cinematic-wrapper .cinematic-title h2 {
+        font-family: 'Courgette';
+        font-size: 24px;
+        text-align: center;
+        margin-bottom: 24px;
+    }
+    .cinematic-wrapper .cinematic-title .content {
+        font-size: 16px;
+        text-align: right;
+        margin-bottom: 16px;
+    }
+    .cinematic-wrapper .cinematic-title .maternity {
+        font-size: 16px;
+        text-align: left;
+        margin-bottom: 16px;
+    }
+    .cinematic-wrapper .cinematic-img img {
+        width: 250px;
+        height: 240px;
+        vertical-align: auto;
+    }
+    .quote .container {
+        padding: 24px 24px;
+    }
+    .text-quote {
+        color: white;
+        padding: 0px 0px;
+        font-size: 16px;
+    }
+    .blogs {
+        display: flex;
+        margin-top: 40px;
+        flex-direction: column;
+    }
+    .blogs .card-blog>img {
+        width: 300px;
+    }
+    .blogs .card-blog {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .blogs .card-blog .read-more {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+    .card-blog .title-blog {
+        font-size: 18px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+    .container .footer {
+        display: block;
+    }
+}

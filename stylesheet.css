@@ -1,0 +1,500 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+/* HTML5 display-role reset for older browsers */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+body {
+    font-family: 'Poppins';
+}
+
+h2 {
+    font-family: 'Courgette';
+    font-size: 32px;
+    color: #242121;
+    text-align: center;
+}
+
+h4 {
+    font-family: 'Courgette';
+    color: #F8C25C;
+    font-size: 18px;
+}
+
+.container {
+    padding: 40px 98px;
+}
+
+
+/* --Navbar-- */
+
+.navbar {
+    background: none;
+    z-index: 1;
+    width: 90%;
+    box-sizing: border-box;
+    position: relative;
+    margin: 0 64px;
+    top: 0;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.navbar-list ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+}
+
+.navbar-list ul li {
+    margin-left: 50px;
+}
+
+.navbar-list ul li a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #242121;
+    display: block;
+}
+
+.navbar-list ul li a:hover {
+    font-weight: bold;
+    cursor: pointer;
+}
+
+li.active {
+    font-weight: bold;
+}
+
+
+/* --Hero-- */
+
+.top-wrapper {
+    position: relative;
+    background-color: #242121;
+}
+
+.hero {
+    display: flex;
+}
+
+.title-top {
+    padding: 40px 40px 40px 98px;
+}
+
+.title-top h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    color: white;
+    margin-bottom: 64px;
+}
+
+.title-top p {
+    font-size: 24px;
+    color: white;
+    margin-bottom: 56px;
+    line-height: 32px;
+}
+
+.top-wrapper .hero .image-top {
+    position: relative;
+}
+
+button {
+    padding: 16px 48px;
+    background-color: #F8C25C;
+    border: none;
+}
+
+button a {
+    text-decoration: none;
+    color: #242121;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+
+/* --Helo-- */
+
+.hello-wrapper {
+    position: relative;
+    padding: 40px 0;
+    text-align: center;
+}
+
+.hello-wrapper p {
+    padding: 0 240px;
+    line-height: 32px;
+    font-size: 24px;
+    margin-top: 40px;
+    margin-bottom: 32px;
+}
+
+.hello-wrapper .media img {
+    padding: 0px 10px;
+}
+
+
+/* --Services-- */
+
+.services-wrapper {
+    background-color: #242121;
+}
+
+.services {
+    display: flex;
+    text-align: center;
+}
+
+.service h3 {
+    color: white;
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.service p {
+    color: white;
+    margin-top: 16px;
+    line-height: 24px;
+    font-size: 18px;
+}
+
+
+/* --Offer-- */
+
+.offers-wrapper {
+    position: relative;
+}
+
+.offers-wrapper .offers {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.offers-wrapper .offers .offer {
+    position: relative;
+}
+
+.offers-wrapper .offers .offer h3 {
+    position: relative;
+    background-color: white;
+    padding: 8px 0px 8px 8px;
+    bottom: 34px;
+    width: 50%;
+}
+
+.offers-wrapper .rectangle img {
+    position: absolute;
+    z-index: -99;
+    width: 100%;
+    bottom: 0;
+}
+
+
+/* --Cinematic-- */
+
+.cinematic-wrapper {
+    padding: 80px 200px 0px 200px;
+    display: flex;
+}
+
+.cinematic-wrapper .cinematic-title h2 {
+    font-family: 'Courgette';
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.cinematic-wrapper .cinematic-title .content {
+    font-size: 18px;
+    text-align: right;
+    margin-bottom: 40px;
+}
+
+.read-more {
+    position: relative;
+    vertical-align: middle;
+    text-align: left;
+}
+
+.align-right {
+    position: relative;
+    vertical-align: middle;
+    text-align: right;
+}
+
+.read-more a {
+    text-decoration: none;
+    color: #3d3d3d;
+    font-size: 12px;
+}
+
+.read-more img {
+    margin-left: 8px;
+    vertical-align: middle;
+}
+
+
+/* --Maternity-- */
+
+.cinematic-wrapper .cinematic-title .maternity {
+    font-size: 18px;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+.read-more-maternity {
+    display: flex;
+    justify-content: start;
+}
+
+.read-more-maternity p {
+    margin-right: 8px;
+}
+
+
+/* --Quote-- */
+
+.quote {
+    background-color: #242121;
+    text-align: center;
+}
+
+.text-quote {
+    color: white;
+    padding: 0px 200px;
+    font-size: 24px;
+    margin-bottom: 40px;
+}
+
+.tony {
+    font-family: 'Courgette';
+    color: #F8C25C;
+    font-size: 24px;
+}
+
+
+/* --Blog-- */
+
+.blogs {
+    display: flex;
+    margin-top: 40px;
+    justify-content: space-between;
+}
+
+.card-blog .title-blog {
+    font-size: 24px;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+
+
+/* --Footer-- */
+
+footer {
+    position: relative;
+    background-color: #242121;
+}
+
+.footer {
+    display: flex;
+}
+
+.footer-brand {
+    width: 270px;
+    color: white;
+}
+
+.footer-brand img {
+    margin-bottom: 24px;
+}
+
+.footer .container .link-footer {
+    display: list-item;
+}
+
+.footer tr td img {
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+.footer tr td {
+    line-height: 32px;
+}
+
+.footer-col {
+    margin-right: 80px;
+}
+
+table {
+    color: white;
+    line-height: 24px;
+    width: 100%;
+}
+
+.links {
+    line-height: 24px;
+    color: white;
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: white;
+    line-height: 32px;
+}
+
+.line-footer {
+    position: relative;
+}
+
+.copyright {
+    position: relative;
+    color: white;
+    padding: 8px 0px 8px 98px;
+}
